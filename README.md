@@ -1,6 +1,6 @@
 # Project Title
 
-Know the Triangle app
+Fun With Triangle app
 
 
 # Project Description
