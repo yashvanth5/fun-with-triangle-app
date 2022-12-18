@@ -5,27 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Is Triangle?</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <a href="istriangle.html">Is Triangle?</a>
-        <a href="quiz.html">Triangle Quiz</a>
-        <a href="hypotenuse.html">Calculate hypotenuse</a>
-        <a href="area.html">area of triangle</a>
-    
-      </nav>
+    <nav class="navigation container" >
+
+        <div class="nav-brand">Fun With Triangles</div>
+
+    <ul class="list-non-bullet nav-pills">
+      <li class="list-item-inline">
+        <a class="link" href="istriangle.html">Is Triangle</a>
+      </li>
+      <li class="list-item-inline">
+        <a class="link" href="quiz.html">Triangle Quiz</a>
+      </li>
+      <li class="list-item-inline">
+        <a class="link"href="hypotenuse.html">Calculate hypotenuse</a>
+      </li>
+      <li class="list-item-inline">
+        <a class="link" href="area.html">area of triangle</a>
+      </li>
+    </ul>
+        </nav>
       
-    <h1>Is Triangle?</h1>
-    <div>
+    <h1 class="header-one header-font">Enter the angles and check to see if those angles can make a triangle or not.</h1>
+    <div class="input-container">
         <label for="angle1">angle 1</label>
-        <input type="number" class="angle-input"> 
+        <input class="input-angle" type="number" id="angle-input"> 
         <label for="angle2">angle 2</label>
-        <input type="number" class="angle-input"> 
+        <input class="input-angle" type="number" id="angle-input"> 
         <label for="angle3" >angle 3</label>
-        <input type="number" class="angle-input" >
+        <input class="input-angle" type="number" id="angle-input" >
         <button id="is-triangle-btn">
             Is Triangle? </button>
-        <div id="output"></div>
+        <div class="outputEl" id="output"></div>
 
 
         <script src="istriangle.js"></script>

@@ -1,0 +1,123 @@
+:root {
+    --light-orange: #fff7eb;
+  }
+
+  body {
+    background-color: var(--light-orange);
+    font-family: "DM Sans", sans-serif;
+    margin: 0ch;
+    padding-left: 5px;
+}
+
+  .navigation{
+    background-color: sandybrown;
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .link
+{
+    color: white;
+}
+.navigation .nav-pills{
+    text-align: right;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+.navigation .nav-brand
+{
+    font-weight: bold;
+    font-size: 1.4rem;
+    padding-top: 1rem;
+}
+.navigation .link-active
+{
+    font-weight: bold;
+}
+.link {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem;}
+
+.container
+{
+    padding: 0rem 1rem;
+}
+
+.list-non-bullet{
+    list-style: none;
+}
+
+
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+
+}
+
+
+.header-one{
+    text-align: center;
+    
+}
+
+.header-font {
+    font-size: larger;
+    font-family: sans-serif;
+    
+}
+
+input {
+    margin: 0.5rem;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--light-orange)
+    padding : 3rem;
+    width : 30vw;
+    margin : auto;
+    text-align : center;
+    color : black;
+    margin-top: 3rem;
+    
+
+}
+
+.input-angle{
+    color: black;
+    margin-bottom: 2rem;
+    padding: 0.2rem;
+
+
+}
+
+#label-area{
+    color: black;
+    margin-bottom: 2rem;
+   
+
+
+}
+
+
+.side-input{
+    color: black;
+    margin-bottom: 2rem;
+    /* padding: 0.2rem; */
+
+}
+
+#outputEl{
+    padding-top: 1rem;
+}
+
+.outputEl {
+    padding-top: 1rem;
+}
+
+.btn-top{
+    margin-top: 2rem;
+}

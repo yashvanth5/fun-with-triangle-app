@@ -5,27 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Area Of Traingle</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <a href="istriangle.html">Is Triangle?</a>
-        <a href="quiz.html">Triangle Quiz</a>
-        <a href="hypotenuse.html">Calculate hypotenuse</a>
-        <a href="area.html">area of triangle</a>
-    
-      </nav>
+    <nav class="navigation container" >
+
+        <div class="nav-brand">Fun With Triangles</div>
+
+    <ul class="list-non-bullet nav-pills">
+      <li class="list-item-inline">
+        <a class="link" href="istriangle.html">Is Triangle</a>
+      </li>
+      <li class="list-item-inline">
+        <a class="link" href="quiz.html">Triangle Quiz</a>
+      </li>
+      <li class="list-item-inline">
+        <a class="link"href="hypotenuse.html">Calculate hypotenuse</a>
+      </li>
+      <li class="list-item-inline">
+        <a class="link" href="area.html">area of triangle</a>
+      </li>
+    </ul>
+        </nav>
       
-    <h1> Check Area</h1>
-    <label for="">Base in cm</label>
-    <input type="number" class="area-input">
-    <label for="">Height in cm</label>
-    <input type="number" class="area-input">
-    <button id="area-btn" type="button">Check</button>
-    <div id="outputEl"></div>
+    <h1 class="header-one header-font"> Check Area</h1>
+    <div class="input-container  >
+        <label for="">Base in cm</label>
+        <input id="label-area" type="number" class="area-input">
+        <label for="">Height in cm</label>
+        <input id="label-area" type="number" class="area-input">
+        <button id="area-btn" type="button">Check</button>
+        <div id="outputEl"></div>
+    
+    
+    
+        <script src="area.js"></script>
 
 
-
-    <script src="area.js"></script>
+    </div>
+   
 
     
 </body>
