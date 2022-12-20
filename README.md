@@ -18,3 +18,8 @@ HTML, CSS, Javascript
 https://funwithallintriangles.netlify.app/
 
 
+# Screen Shots 
+
+![funwithtriangles](https://user-images.githubusercontent.com/116138513/208687615-43c4316d-5b43-4e71-ae57-50a91d63ed76.PNG)
+
+
